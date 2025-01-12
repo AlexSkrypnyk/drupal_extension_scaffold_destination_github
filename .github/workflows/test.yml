@@ -11,7 +11,7 @@ on:
       - 1.x
 
 env:
-  SIMPLETEST_DB: sqlite://tmp/site.sqlite
+  SIMPLETEST_DB: sqlite://tmp/db.sqlite
 
 jobs:
   test:
